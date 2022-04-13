@@ -1,6 +1,4 @@
-#include <unistd.h>
-
-void ft_ultimate_ft(int *********nbr)
+void ft_putchar(char c)
 {
-    *********nbr = 42;
+    write(1, &c, 1);
 }
