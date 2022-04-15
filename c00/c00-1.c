@@ -1,4 +1,12 @@
-void ft_putchar(char c)
+#include <unistd.h>
+void ft_print_alphabet(void)
 {
-    write(1, &c, 1);
+    char    a;
+    a = 'a';
+    while ( a <= 'z' )
+    {
+        write (1, &a, 1 );
+        a++;
+    }
+    
 }
